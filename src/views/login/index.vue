@@ -60,11 +60,11 @@ export default {
                 mobile: [
                     {
                         required: true,
-                        message: "手机号不能为空",
+                        message: '手机号不能为空',
                     },
                     {
                         pattern: /^1[3|5|7|8]\d{9}$/,
-                        message: "手机号格式错误",
+                        message: '手机号格式错误',
                     },
                 ],
                 code: [
@@ -91,7 +91,7 @@ export default {
             this.$toast.loading({
                 message: "登录中...",
                 forbidClick: true, // 禁用背景点击
-                duration: 0, // 持续时间，默认 2000，0 表示持续展示不关闭
+                duration: 1000, // 持续时间，默认 2000，0 表示持续展示不关闭
             });
 
             // 2. 请求登录

@@ -5,7 +5,7 @@ import axios from "axios";
 import store from "@/store";
 
 const request = axios.create({
-  baseURL: "http://ttapi.research.itcast.cn/", // 基础路径
+  baseURL: "http://api-toutiao-web.itheima.net/", // 基础路径
 });
 
 // https://github.com/axios/axios#interceptors
